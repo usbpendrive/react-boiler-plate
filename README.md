@@ -1,2 +1,1 @@
-# react-boiler-plate
-React boilerplate with Webpack 4
+React boilerplate with Webpack 4 and Babel 7.

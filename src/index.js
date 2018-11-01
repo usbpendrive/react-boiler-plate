@@ -1,4 +1,15 @@
-console.warn('Roast sun-dried herrings in a casserole with tabasco for about an hour to increase their pepperiness.');
-console.log('Flatten popcorn thoroughly, then mix with ricotta and serve quickly in jar.');
-console.log('Rise and you will be rejected wisely.');
-console.log('Salted ghee can be made bloody by enameling with honey.');
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const App = () => {
+    return (
+        <div>
+            <p>
+                Castus lumens ducunt ad zelus. Voxs ridetis, tanquam alter fortis.
+                Triticums ortum, tanquam magnum aonides. Rusticus victrix tandem locuss eleates est.
+            </p>
+        </div>
+    );
+};
+
+ReactDOM.render(<App />, document.getElementById("app"));
